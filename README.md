@@ -1,5 +1,7 @@
 # notes-rbac
 
+[![CI](https://github.com/AugustinMoquin/notes-rbac/actions/workflows/ci.yml/badge.svg)](https://github.com/AugustinMoquin/notes-rbac/actions/workflows/ci.yml)
+
 A multi-tenant notes API built with FastAPI. Users belong to a tenant
 (organization), authenticate with JWTs, and are subject to role-based access
 control. Tenants are fully isolated from one another.
